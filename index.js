@@ -16,6 +16,10 @@ app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }))
 
 
 
+app.use("/",(req,res)=>{
+    res.status(200).send({message:"QuizApplication Backend"})
+})
+
 app.use("/user" , userRoute)
 app.use("/quizzes" , quizRouter)
 startQuizStatusUpdate()
