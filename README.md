@@ -4,12 +4,12 @@ This Quiz Application is a web-based platform that allows users to create and pa
 
 ## Table of Contents
 
--[Features](#features)
--[Technologies](#technologies-used)
-- [Installation](#installation)
-- [Routes](#routes)
-  - [User Authentication](#user-authentication)
-  - [Quiz Management](#quiz-management)
+ - [Features](#features)
+ - [Technologies](#technologies-used)
+ - [Installation](#installation)
+ - [Routes](#routes)
+   - [User Authentication](#user-authentication)
+   - [Quiz Management](#quiz-management)
 
 
 ## Features
